@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Website</title>
+       <link rel="stylesheet" type="text/css" href="style.css">
+       <link rel="preconnect" href="https://fonts.gstatic.com">
+       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="image/eduford_img/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                     <li><a href="first.html">HOME</a></li>
+                     <li><a href="about.html.html">ABOUT</a></li>
+                     <li><a href="Course.html.html">COURSE</a></li>
+                     <li><a href="blog.html.html">BLOG</a></li>
+                     <li><a href="contact.html.html">CONTACT</a></li>
+                    </ul>
+
+
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Contact Us</h1>
+        </section>
+
+                <!-------contact us----->
+                <section class="location">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230660.99610732845!2d81.66149817782494!3d25.4021973897893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398534c9b20bd49f%3A0xa2237856ad4041a!2sPrayagraj%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1620223122825!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </section>
+                <section class="contact-us">
+                    <div class="row">
+                        <div class="contact-col">
+                           
+                            <div>
+                                <i class="fas fa-home"></i>
+                                <span>
+                                    <h5>
+                                        XYZ Road,ABC Building
+                                    </h5>
+                                    <p>BANGALORE,KARNATAKA</p>
+                                </span>
+                            </div>
+                            <div>
+                                <i class="fas fa-Phone"></i>
+                                <span>
+                                    <h5>
+                                        +91 6548455485
+                                    </h5>
+                                    <p>Monday To Saturday,10am to 6pm</p>
+                                </span>
+                            </div>
+                            <div>
+                                <i class="fas fa-envelope-o"></i>
+                                <span>
+                                    <h5>
+                                       info@solution.com
+                                    </h5>
+                                    <p>Email us your query</p>
+                                </span>
+                            </div>
+
+                        </div>
+                        <div class="contact-col">
+                            <form action="formhandler.php" method="POST">
+                                <input type="text" name="name" placeholder="Enter Your Name" required>
+                                <input type="Email" name="email" placeholder="Enter Your Email Address" required>
+                                <input type="text" name="subject" placeholder="Enter Your subject"  required>
+                                <textarea rows="8" name="message" placeholder="Message"></textarea>
+                                <button type="submit" class="hero-btn red-btn">Send Message</button>
+
+
+                            </form>
+
+
+
+
+
+                        </div>
+                    </div>
+
+
+
+                </section>
+              
+              <!---------Footer----->
+
+             <section class="footer">
+                 <h4>About Us</h4>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam distinctio ducimus sunt modi placeat.<br> Porro harum debitis natus perspiciatis commodi dignissimos. Sit asperiores harum tenetur fugit, debitis quaerat tempora officia!</p>
+                 <div class="icons">
+                    <i class="fas fa-facebook"></i>
+                    <i class="fas fa-twitter"></i>
+                    <i class="fas fa-instagram"></i>
+                    <i class="fas fa-linkedin"></i>
+                 </div>
+                 <p>Made With  <i class="fa fa-heart-o"></i>Easy Tutorials</p>
+             </section> 
+
+
+
+
+                    <!---------Javscript for Toggle Menu----->
+
+
+         <script>
+
+             var navLinks = document.getElementById("navLinks");
+             function showMenu(){
+             navLinks.style.right="0";
+             }
+             
+             function hideMenu(){
+                 navLinks.style.right="-200px";
+             }
+         </script>
+    </body>    
+</html>

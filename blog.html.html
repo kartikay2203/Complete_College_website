@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Website</title>
+       <link rel="stylesheet" type="text/css" href="style.css">
+       <link rel="preconnect" href="https://fonts.gstatic.com">
+       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="image/eduford_img/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="first.html">HOME</a></li>
+                        <li><a href="about.html.html">ABOUT</a></li>
+                        <li><a href="Course.html.html">COURSE</a></li>
+                        <li><a href="blog.html.html">BLOG</a></li>
+                        <li><a href="contact.html.html">CONTACT</a></li>
+                    </ul>
+
+
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Certificate &<br>online programs for 2021</h1>
+         </section>
+
+           <!---------blog page content----->
+
+            <section class="blog-content">
+                <div class="row">
+                    <div class="blog-left">
+                        <img src="image/eduford_img/certificate.jpg">
+                        <h2>Our Certificate & online programs for 2021</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, quos a repellendus voluptate, non, autem id iste quas asperiores est? Corporis!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nostrum nam reiciendis quos quibusdam.  porro in ducimus adipisci. Iusto ab libero laudantium temporibus non, est a cumque itaque voluptates at similique mollitia pariatur.</p>
+                        <br>
+                        <p>Lorem ipsum repellendus voluptate, non, autem id iste quas asperiores est? Corporis!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nostrum nam reiciendis quos quibusdam.  repellendus voluptate, non, autem id iste quas asperiores est? Corporis!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nostrum nam reiciendis quos quibusdam. iis doloremque est minima eos! Sequi ad excepturi sapiente commodi? Dolorem, dolore.</p>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sapiente qu repellendus voluptate, non, autem id iste quas asperiores est? Corporis!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nostrum nam reiciendis quos quibusdam. i aspernatur, ratione quibusdam iusto quas, ex veritatis quae voluptates culpa corrupti dolor illo voluptatem maiores mollitia corporis vero voluptatum?</p>
+                        <br>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet animi magni maiores in aliquid at eaque, atque ea fugit nemo repellendus voluptate, non, autem id iste quas asperiores est? Corporis!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nostrum nam 
+                        <div class="comment-box">
+                        <h3>Leave a Comment</h3>
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="Email" placeholder="Enter Email">
+                            <textarea  rows="5" placeholder="Enter Comment"></textarea>
+                            <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                        
+                        </form>
+                        </div>
+
+
+
+
+
+
+
+
+                    </div>
+                    <div class="blog-right">
+                        <h3>Post Categories</h3>
+                        <div>
+                            <span>Business Analytics</span>
+                            <span>21</span>
+                        </div>
+                        <div>
+                            <span>Data Science</span>
+                            <span>43</span>
+                        </div>
+                        <div>
+                            <span>Machine learning</span>
+                            <span>44</span>
+                        </div>
+                        <div>
+                            <span>Commerce</span>
+                            <span>21</span>
+                        </div>
+                        <div>
+                            <span>Journalism</span>
+                            <span>33</span>
+                        </div>
+                        <div>
+                            <span>Autocad</span>
+                            <span>27</span>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+            
+            
+    
+              <!---------Footer----->
+
+             <section class="footer">
+                 <h4>About Us</h4>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam distinctio ducimus sunt modi placeat.<br> Porro harum debitis natus perspiciatis commodi dignissimos. Sit asperiores harum tenetur fugit, debitis quaerat tempora officia!</p>
+                 <div class="icons">
+                    <i class="fas fa-facebook"></i>
+                    <i class="fas fa-twitter"></i>
+                    <i class="fas fa-instagram"></i>
+                    <i class="fas fa-linkedin"></i>
+                 </div>
+                 <p>Made With  <i class="fa fa-heart-o"></i>Easy Tutorials</p>
+             </section> 
+
+
+
+                    <!---------Javscript for Toggle Menu----->
+
+
+         <script>
+
+             var navLinks = document.getElementById("navLinks");
+             function showMenu(){
+             navLinks.style.right="0";
+             }
+             
+             function hideMenu(){
+                 navLinks.style.right="-200px";
+             }
+         </script>
+    </body>    
+</html>
